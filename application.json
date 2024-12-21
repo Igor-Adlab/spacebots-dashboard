@@ -4,6 +4,7 @@
   "collapseInvisibleWidgets": true,
   "color": "#D9E7FF",
   "evaluationVersion": 2,
+  "icon": "diamond",
   "pages": [
     {
       "id": "Dashboard",
