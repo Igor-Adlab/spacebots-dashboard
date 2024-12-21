@@ -8,7 +8,8 @@
       "encodeParamsToggle": true,
       "jsArguments": [
         {
-          "name": "result"
+          "name": "result",
+          "value": "{{[]}}"
         }
       ],
       "paginationType": "NONE",

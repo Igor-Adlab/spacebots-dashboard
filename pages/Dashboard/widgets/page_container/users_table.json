@@ -79,6 +79,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "onRowSelected"
     }
   ],
   "dynamicTriggerPathList": [
@@ -106,7 +109,7 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onRowSelected": "{{dashboard_helpers.refreshDrilldown();}}",
+  "onRowSelected": "\t{{get_selected_user_usage.run() && get_selected_user_invoices.run()}}",
   "parentColumnSpace": 19.9375,
   "parentId": "ms1tf7pl5x",
   "parentRowSpace": 10,

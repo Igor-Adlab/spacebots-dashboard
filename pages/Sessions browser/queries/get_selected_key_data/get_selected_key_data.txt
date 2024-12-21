@@ -1,0 +1,1 @@
+GET {{sessions_list.triggeredItem.result}}

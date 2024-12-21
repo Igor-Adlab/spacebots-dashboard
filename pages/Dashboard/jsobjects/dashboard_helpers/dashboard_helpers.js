@@ -1,14 +1,12 @@
 export default {
-	getTotalIncomes(result) {
+	getTotalIncomes(result = []) {
 		return _.first(result)?.total || 0;
 	},
 	refreshDrilldown() {
-		return Promise.all([
-			get_selected_user_usage.run(),
-			get_selected_user_invoices.run(),
-		]);
+		get_selected_user_usage.run();
+			get_selected_user_invoices.run();
 	},
-	getServiceStats(data) {
+	getServiceStats(data = []) {
 		return data.map(record => ({ y: record.sum, x: record.service }))
 	},
 	getWeeklyUsage() {

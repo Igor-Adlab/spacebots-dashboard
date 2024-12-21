@@ -8,6 +8,10 @@
     {
       "id": "Dashboard",
       "isDefault": true
+    },
+    {
+      "id": "Sessions browser",
+      "isDefault": false
     }
   ]
 }
