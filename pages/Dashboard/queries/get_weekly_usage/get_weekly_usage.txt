@@ -1,0 +1,11 @@
+SELECT 
+    date_trunc('day', "day") AS "day",
+    SUM("count") AS "usage"
+FROM 
+    billing."usages"
+WHERE 
+    "day" >= CURRENT_DATE - INTERVAL '7 days'
+GROUP BY 
+    "day"
+ORDER BY 
+    "day" DESC;

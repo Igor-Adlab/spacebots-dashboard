@@ -1,11 +1,12 @@
 {
   "gitSyncId": "6766a1dccfbb9f6329444e0d_1b7c75c1-74ac-4c42-ba7b-9c8f209fb3e6",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 5000,
+          "bottomRow": 1120,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "Dashboard",
+    "slug": "dashboard"
   }
 }

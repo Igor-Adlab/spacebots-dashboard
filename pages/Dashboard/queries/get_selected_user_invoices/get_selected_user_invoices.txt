@@ -1,0 +1,8 @@
+SELECT 
+    *
+FROM 
+    billing."invoices" 
+WHERE 
+    "subscriberId" = {{users_table.selectedRow.id}}
+ORDER BY 
+    "createdAt" DESC;

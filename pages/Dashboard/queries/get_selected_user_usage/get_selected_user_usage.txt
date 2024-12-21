@@ -1,0 +1,10 @@
+SELECT 
+    SUM(count) AS count, 
+    "subscriberId", 
+    service 
+FROM 
+    billing."usages" 
+WHERE 
+    "subscriberId" = {{users_table.selectedRow.id}}
+GROUP BY 
+    "subscriberId", service;

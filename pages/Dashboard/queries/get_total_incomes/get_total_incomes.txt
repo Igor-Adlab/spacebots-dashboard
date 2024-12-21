@@ -1,0 +1,1 @@
+SELECT SUM("amount") as total FROM billing."invoices" WHERE status = 'Paid';

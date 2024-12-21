@@ -1,0 +1,1 @@
+SELECT service, SUM(count) FROM billing."usages" GROUP BY service;
